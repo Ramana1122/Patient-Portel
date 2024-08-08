@@ -5,10 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // import { PatientAppointmentComponent } from './patient-appointment/patient-appointment.component';
 import { DoctorDashboardComponent } from './doctor-dashboard/doctor-dashboard.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
+import { LandingPageComponent } from './home/landing-page/landing-page.component';
 import { AppointmentsComponent } from './appointments/appointments.component';
 
 import { HeaderCommonDoctorsComponent } from './header-common-doctors/header-common-doctors.component';
+import { HeaderComponent } from './home/header/header.component';
+import { HomeBannerComponent } from './home/home-banner/home-banner.component';
+import { DoctorWidgetComponent } from './home/doctor-widget/doctor-widget.component';
+import { FooterComponent } from './home/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +22,11 @@ import { HeaderCommonDoctorsComponent } from './header-common-doctors/header-com
     DoctorDashboardComponent,
     LandingPageComponent,
     AppointmentsComponent,
-    HeaderCommonDoctorsComponent
+    HeaderCommonDoctorsComponent,
+    HeaderComponent,
+    HomeBannerComponent,
+    DoctorWidgetComponent,
+    FooterComponent    
   ],
   imports: [
     BrowserModule,

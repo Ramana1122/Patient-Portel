@@ -1,0 +1,154 @@
+
+/* General section styling */
+.section-doctor {
+    padding: 60px 0;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .section-header p {
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-content a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-content a:hover {
+    text-decoration: underline;
+  }
+  
+ /* Container for the doctor slider */
+.doctor-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: auto; */
+    padding: 0 15px; 
+    position: relative;
+    /* overflow: hidden; */
+}
+
+/* Doctor Widget */
+.profile-widget {
+    flex: 0 0 auto; /* Ensure items don’t shrink */
+    width: 250px; /* Set a fixed width */
+    margin: 0 15px; /* Space between cards */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for better visibility */
+    overflow: hidden; /* Hide overflow */
+    background-color: #fff; /* White background */
+}
+
+/* Image container
+
+.doc-img {
+  
+}
+
+/* Image styling */
+.doc-img img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    position: relative;
+} 
+
+/* Favorite button */
+.fav-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* Profile content */
+.pro-content {
+    padding: 15px;
+}
+
+/* Title styling */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+/* Speciality */
+.speciality {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Rating */
+.rating {
+    margin-bottom: 10px;
+}
+
+.rating i {
+    color: #f5c518; /* Gold color for stars */
+}
+
+/* Available info list */
+.available-info {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.available-info li {
+    margin-bottom: 5px;
+}
+
+.available-info i {
+    margin-right: 5px;
+}
+
+/* Button styling */
+.btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.view-btn {
+    background-color: #007bff; /* Blue color for View Profile button */
+}
+
+.book-btn {
+    background-color: #28a745; /* Green color for Book Now button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-widget {
+        width: 100%; /* Full width on small screens */
+        margin-bottom: 15px;
+    }
+
+
+    /* ///////////////////////////////////////////////////////////////////////////////////// */
+
+}
