@@ -39,7 +39,7 @@ export class LandingPageComponent implements AfterViewInit {
     // Initialize slick carousel after view is initialized
     $(this.el.nativeElement.querySelector('.specialities-slider')).slick(this.slickOptions);
     
-    this.slickCarouselService.initializeSlickCarousel('.features-slider');
+    this.slickCarouselService.initializeSlickCarouse2('.features-slider');
   }
 
 }

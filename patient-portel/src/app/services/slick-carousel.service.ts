@@ -46,11 +46,12 @@ export class SlickCarouselService {
 
   private getSlickOptions(): any {
     return {
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
-      infinite: true,
       dots: false,
       arrows: false,
+      infinite: true,
+      autoplay: true,
       responsive: [
         {
           breakpoint: 1024,
