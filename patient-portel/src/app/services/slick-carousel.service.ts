@@ -14,7 +14,8 @@ export class SlickCarouselService {
     $(selector).slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      dots: true,
+      dots: false,
+      arrows: false,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 3000,
@@ -48,8 +49,8 @@ export class SlickCarouselService {
       slidesToShow: 3,
       slidesToScroll: 1,
       infinite: true,
-      dots: true,
-      arrows: true,
+      dots: false,
+      arrows: false,
       responsive: [
         {
           breakpoint: 1024,

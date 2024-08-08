@@ -10,10 +10,10 @@ export class LandingPageComponent implements AfterViewInit {
   @ViewChild('sliderContainer', { static: false }) sliderContainer!: ElementRef;
   title = 'patient-portel';
   slickOptions = {
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
-    arrows: true,
-    dots: true,
+    arrows: false,
+    // dots: true,
     responsive: [
       {
         breakpoint: 768,
