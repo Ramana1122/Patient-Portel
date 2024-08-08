@@ -30,9 +30,25 @@
               "src/assets/plugins/fontawesome/css/all.min.css",
               "src/assets/plugins/fontawesome/css/fontawesome.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/styles.css",
+              "node_modules/slick-carousel/slick/slick.css",
+              "node_modules/slick-carousel/slick/slick-theme.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+  "src/assets/js/bootstrap.min.js",
+  "src/assets/js/popper.min.js",
+  "src/assets/js/moment.min.js",
+  "src/assets/js/bootstrap-datetimepicker.min.js",
+  "src/assets/js/circle-progress.min.js",
+  "src/assets/js/slick.js",
+  "src/assets/js/profile-settings.js",
+  "src/assets/js/script.js",
+  "src/assets/js/slider.js",
+    "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {
