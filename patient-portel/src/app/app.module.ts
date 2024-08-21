@@ -15,7 +15,9 @@ import { DoctorWidgetComponent } from './home/doctor-widget/doctor-widget.compon
 import { FooterComponent } from './home/footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -36,7 +38,10 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+   CommonModule,
+   HttpClientModule,
+   ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
