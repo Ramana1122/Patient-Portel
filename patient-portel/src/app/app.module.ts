@@ -13,6 +13,9 @@ import { HeaderComponent } from './home/header/header.component';
 import { HomeBannerComponent } from './home/home-banner/home-banner.component';
 import { DoctorWidgetComponent } from './home/doctor-widget/doctor-widget.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -26,11 +29,14 @@ import { FooterComponent } from './home/footer/footer.component';
     HeaderComponent,
     HomeBannerComponent,
     DoctorWidgetComponent,
-    FooterComponent    
+    FooterComponent,
+    LoginComponent,
+    RegisterComponent    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
