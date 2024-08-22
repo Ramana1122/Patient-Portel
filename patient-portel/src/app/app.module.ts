@@ -18,6 +18,7 @@ import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     DoctorWidgetComponent,
     FooterComponent,
     LoginComponent,
-    RegisterComponent    
+    RegisterComponent,
+    PatientDashboardComponent    
   ],
   imports: [
     BrowserModule,

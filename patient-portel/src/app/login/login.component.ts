@@ -34,7 +34,7 @@ export class LoginComponent {
         response => {
           // Handle successful login, e.g., store token and redirect
           console.log('Login successful');
-          this.router.navigate(['/doctor-dashboard']); // Redirect to a different route after successful login
+          this.router.navigate(['/patient']); // Redirect to a different route after successful login
         },
         error => {
           // Handle login error, e.g., show error message
