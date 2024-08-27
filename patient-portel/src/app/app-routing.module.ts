@@ -10,11 +10,13 @@ import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard
 const routes: Routes = [
   
   { path: '', component: LandingPageComponent, pathMatch: 'full' },
+  {path:'Landingpage',component:LandingPageComponent },
   { path: 'doctor-dashboard', component: DoctorDashboardComponent },
   { path: 'appointments', component: AppointmentsComponent },
   {path:"login",component:LoginComponent},
   {path:"register",component:RegisterComponent},
-  {path:"patient",component:PatientDashboardComponent}
+  {path:"patient",component:PatientDashboardComponent},
+  { path: '**', redirectTo: '/login' }
 ];
 
 @NgModule({

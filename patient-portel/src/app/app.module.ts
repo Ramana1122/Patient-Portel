@@ -19,6 +19,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard.component';
+import { PatientDashboardHeaderComponent } from './patient-dashboard-header/patient-dashboard-header.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard
     FooterComponent,
     LoginComponent,
     RegisterComponent,
-    PatientDashboardComponent    
+    PatientDashboardComponent,
+    PatientDashboardHeaderComponent    
   ],
   imports: [
     BrowserModule,
