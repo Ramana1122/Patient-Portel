@@ -42,7 +42,7 @@ export class SlickCarouselService {
 
   initializeSlickCarouse2(selector: string) {
     $(selector).slick(this.getSlickOptions());
-  }
+  }   
 
   private getSlickOptions(): any {
     return {

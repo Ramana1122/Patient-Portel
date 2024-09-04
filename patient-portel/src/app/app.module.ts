@@ -20,6 +20,8 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard.component';
 import { PatientDashboardHeaderComponent } from './patient-dashboard-header/patient-dashboard-header.component';
+import { PatientProfileComponent } from './patient-profile/patient-profile.component';
+import { PatientPortalSidebarComponent } from './patient-portal-sidebar/patient-portal-sidebar.component';
 
 
 @NgModule({
@@ -37,7 +39,9 @@ import { PatientDashboardHeaderComponent } from './patient-dashboard-header/pati
     LoginComponent,
     RegisterComponent,
     PatientDashboardComponent,
-    PatientDashboardHeaderComponent    
+    PatientDashboardHeaderComponent,
+    PatientProfileComponent,
+    PatientPortalSidebarComponent    
   ],
   imports: [
     BrowserModule,

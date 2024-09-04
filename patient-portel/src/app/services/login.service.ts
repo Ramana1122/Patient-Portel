@@ -1,13 +1,14 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable } from 'rxjs';
+import { environment } from 'src/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LoginService {
-  private baseUrl = 'http://localhost:9001/api/auth';
-
+  // private baseUrl = 'http://localhost:9001/api/auth';
+  private baseUrl = `${environment.baseurl}/auth`;
   httpOptions: any = {
     headers: new HttpHeaders({
       'Accept': 'application/json',
