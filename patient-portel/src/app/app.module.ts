@@ -22,6 +22,12 @@ import { PatientDashboardComponent } from './patient-dashboard/patient-dashboard
 import { PatientDashboardHeaderComponent } from './patient-dashboard-header/patient-dashboard-header.component';
 import { PatientProfileComponent } from './patient-profile/patient-profile.component';
 import { PatientPortalSidebarComponent } from './patient-portal-sidebar/patient-portal-sidebar.component';
+import { FavouritesComponent } from './favourites/favourites.component';
+import { ChatComponent } from './chat/chat.component';
+import { BookingComponent } from './booking/booking.component';
+import { SearchDoctorPatientviewComponent } from './search-doctor-patientview/search-doctor-patientview.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { DoctorprofileComponent } from './doctorprofile/doctorprofile.component';
 
 
 @NgModule({
@@ -41,7 +47,13 @@ import { PatientPortalSidebarComponent } from './patient-portal-sidebar/patient-
     PatientDashboardComponent,
     PatientDashboardHeaderComponent,
     PatientProfileComponent,
-    PatientPortalSidebarComponent    
+    PatientPortalSidebarComponent,
+    FavouritesComponent,
+    ChatComponent,
+    BookingComponent,
+    SearchDoctorPatientviewComponent,
+    CheckoutComponent,
+    DoctorprofileComponent    
   ],
   imports: [
     BrowserModule,

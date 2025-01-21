@@ -1,26 +1,28 @@
 <div class="dashboard-widget">
     <nav class="dashboard-menu">
         <ul>
-            <li class="active">
-                <a href="patient-dashboard.html">
+            <li [class.active]="activePage === 'dashboard'" >
+                <a href="javascript:void(0)" (click)="goToDashboard()">
                     <i class="fas fa-columns"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li>
-                <a href="favourites.html">
+            <li [class.active]="activePage === 'favourites'" >
+                <a href="javascript:void(0)" (click)="goToFavourites()">
                     <i class="fas fa-bookmark"></i>
                     <span>Favourites</span>
                 </a>
             </li>
+            
+            
             <li>
-                <a href="chat.html">
+                <a href="javascript:void(0)" (click)="goToChat()">
                     <i class="fas fa-comments"></i>
                     <span>Message</span>
                     <small class="unread-msg">23</small>
                 </a>
             </li>
-            <li>
+            <li [class.active]="activePage === 'profile'">
                 <a href="javascript:void(0)" (click)="goToProfile()">
                     <i class="fas fa-user-cog"></i>
                     <span>Profile Settings</span>

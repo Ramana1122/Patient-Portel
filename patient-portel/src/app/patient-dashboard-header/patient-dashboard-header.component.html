@@ -1,6 +1,6 @@
 <header class="header">
     <nav class="navbar navbar-expand-lg header-nav">
-        <div class="navbar-header">
+        <div class="navbar-header" >
             <a id="mobile_btn" href="javascript:void(0);">
                 <span class="bar-icon">
                     <span></span>
@@ -12,7 +12,23 @@
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
             </a>
         </div>
-           
+        <ul class="main-nav">
+        <li class="has-submenu">
+            <a href="#">Patients <i class="fas fa-chevron-down"></i></a>
+            <ul class="submenu">
+                <li><a href="javascript:void(0);" (click)="onsearchdoctor()">Search Doctor</a></li>
+                <li><a href="doctor-profile.html">Doctor Profile</a></li>
+                <li><a href="javascript:void(0);" (click)="onBookingClick()">Booking</a></li>
+                <!-- <li><a href="checkout.html">Checkout</a></li> -->
+                <li><a href="booking-success.html">Booking Success</a></li>
+                <li><a href="javascript:void(0);" (click)="onDashboard()">Patient Dashboard</a></li>
+                <li><a href="favourites.html">Favourites</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="profile-settings.html">Profile Settings</a></li>
+                <li><a href="change-password.html">Change Password</a></li>
+            </ul>
+        </li>	
+    </ul>
         <ul class="nav header-navbar-rht">
             <li class="nav-item contact-item">
                 <div class="header-contact-img">

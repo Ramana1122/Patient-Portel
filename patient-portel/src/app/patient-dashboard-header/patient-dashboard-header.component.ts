@@ -11,4 +11,19 @@ export class PatientDashboardHeaderComponent {
   goToLandingpage(){
     this.router.navigate(['/Landingpage']);
   }
+
+  onBookingClick(): void {
+  
+    this.router.navigate(['/booking']);
+  }
+
+  onDashboard(): void {
+  
+    this.router.navigate(['/patient']);
+  }
+  onsearchdoctor(): void {
+  
+    this.router.navigate(['/searchdoctor']);
+  }
+  
 }

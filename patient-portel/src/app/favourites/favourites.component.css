@@ -1,0 +1,32 @@
+.view-btn {
+    color: #0de0fe;
+    font-size: 13px;
+    border: 2px solid #0de0fe;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+	padding: 6px;
+}
+.view-btn:hover, .view-btn:focus {
+	background-color: #0de0fe;
+	color: #fff;
+}
+.book-btn {
+	background-color: #0de0fe;
+    border: 2px solid #0de0fe;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+	padding: 6px;
+}
+.book-btn:hover, .book-btn:focus {
+	background-color: #01cae4;
+	border-color: #01cae4;
+	color: #fff;
+}
+a {
+    text-decoration: none;
+    
+}
