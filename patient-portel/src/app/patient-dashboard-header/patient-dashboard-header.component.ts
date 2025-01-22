@@ -25,5 +25,16 @@ export class PatientDashboardHeaderComponent {
   
     this.router.navigate(['/searchdoctor']);
   }
-  
+
+  onchat(){
+    this.router.navigate(['/patientchat']);
+  }
+
+  onprofilesettings(){
+    this.router.navigate(['/profile']);
+  }
+
+  onBookingsuccess(){
+    this.router.navigate(['/bookingsuccess']);
+  }
 }

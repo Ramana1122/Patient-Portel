@@ -13,6 +13,8 @@ import { BookingComponent } from './booking/booking.component';
 import { SearchDoctorPatientviewComponent } from './search-doctor-patientview/search-doctor-patientview.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { DoctorprofileComponent } from './doctorprofile/doctorprofile.component';
+import { BookingSuccessComponent } from './booking-success/booking-success.component';
+import { InvoiceViewComponent } from './invoice-view/invoice-view.component';
 
 const routes: Routes = [
   
@@ -30,6 +32,8 @@ const routes: Routes = [
   {path:"searchdoctor",component:SearchDoctorPatientviewComponent},
   {path:"checkout",component:CheckoutComponent},
   {path:"doctorprofile",component:DoctorprofileComponent},
+  {path:"bookingsuccess",component:BookingSuccessComponent},
+  {path:"invoiceview",component:InvoiceViewComponent},
   { path: '**', redirectTo: '/login' }
 ];
 
